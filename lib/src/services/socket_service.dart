@@ -1,3 +1,4 @@
+
 import 'package:flutter_chat/src/model/get_all_chat.dart';
 import 'package:flutter_chat/src/model/property_chat_model.dart';
 import 'package:socket_io_client/socket_io_client.dart' as IO;
@@ -21,7 +22,7 @@ class SocketService {
 
   void initializeSocket() {
     print('Initializing socket...');
-    socket = IO.io('http://34.29.1.49:3004', <String, dynamic>{
+    socket = IO.io('...', <String, dynamic>{
       'transports': ['websocket'],
     });
 
