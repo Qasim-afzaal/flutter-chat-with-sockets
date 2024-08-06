@@ -10,7 +10,7 @@ import 'package:socket_io_client/socket_io_client.dart' as IO;
 
 
 // final ChatController _chatController = di<ChatController>();
-
+// you can use user data if you want our requirment is this thats why i used
 class ChatScreen extends StatefulWidget
     // with WatchItStatefulWidgetMixin 
     {
